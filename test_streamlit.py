@@ -26,4 +26,4 @@ When Buzz meets Buzz.""")
 
 size = st.slider('Adjust the picture size', 100, 800, 400)
 
-st.image("/home/julie/code/JulieCornet/07-ML-Ops/05-User-interface/data-streamlit-api/BUZZ.png", caption="Buzz & Buzz", width=size)
+st.image("BUZZ.png", caption="Buzz & Buzz", width=size)
